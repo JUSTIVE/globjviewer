@@ -1,0 +1,20 @@
+﻿Build started 2016-05-31 오후 10:26:02.
+     1>Project "C:\Users\민상\documents\visual studio 2013\Projects\GLRERENDERER\GLRERENDERER\GLRERENDERER.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Mesh.cpp Source.cpp
+         Source.cpp
+     1>c:\users\민상\documents\visual studio 2013\projects\glrerenderer\glrerenderer\source.cpp(72): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\민상\documents\visual studio 2013\projects\glrerenderer\glrerenderer\source.cpp(329): warning C4018: '<' : signed/unsigned mismatch
+         Mesh.cpp
+     1>c:\users\민상\documents\visual studio 2013\projects\glrerenderer\glrerenderer\mesh.cpp(109): warning C4804: '<' : unsafe use of type 'bool' in operation
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\민상\documents\visual studio 2013\Projects\GLRERENDERER\Debug\GLRERENDERER.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\민상\documents\visual studio 2013\Projects\GLRERENDERER\Debug\GLRERENDERER.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\민상\documents\visual studio 2013\Projects\GLRERENDERER\Debug\GLRERENDERER.lib" /MACHINE:X86 Debug\BenGL.obj
+         Debug\Mesh.obj
+         Debug\Source.obj
+         GLRERENDERER.vcxproj -> C:\Users\민상\documents\visual studio 2013\Projects\GLRERENDERER\Debug\GLRERENDERER.exe
+     1>Done Building Project "C:\Users\민상\documents\visual studio 2013\Projects\GLRERENDERER\GLRERENDERER\GLRERENDERER.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.02
